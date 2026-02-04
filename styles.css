@@ -1,17 +1,15 @@
-/* valentines css */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Page layout */
+/* Page setup */
 .page {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -50,8 +48,8 @@ h1 {
     font-size: 18px;
     cursor: pointer;
     margin: 0 1in;
-    box-shadow: 0 6px 0 #7aaed6;
     border-radius: 8px;
+    box-shadow: 0 6px 0 #7aaed6;
 }
 
 .game-button:active {
