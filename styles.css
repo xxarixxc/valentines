@@ -72,8 +72,13 @@ h1 {
     align-items: center;
 }
 
+#page1 .gif-placeholder 
+{
+    margin-top: 1in; /* adds 1 inch space between buttons and GIF */
+}
 /* Make GIFs fit inside placeholder */
 .gif-placeholder img {
     max-width: 100%;
     max-height: 100%;
 }
+
