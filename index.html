@@ -12,19 +12,36 @@
         <h1>Hi Anthony want to play a game?</h1>
 
         <div class="button-row">
-            <button class="game-button" onclick="goYes()">Yes</button>
+            <button class="game-button" onclick="goValentine()">Yes</button>
             <button class="game-button" onclick="goNo()">No</button>
         </div>
 
-        <img src="jigsaw.gif" alt="gif" class="gif">
+        <div class="gif-placeholder">
+            <img src="jigsaw.gif" alt="gif" class="gif">
+        </div>
     </div>
 
-    <!-- YES PAGE -->
-    <div id="yesPage" class="page pastel hidden">
+    <!-- VALENTINE PAGE -->
+    <div id="valentinePage" class="page pastel hidden">
+        <h1>Do you want to be my Valentine?</h1>
+
+        <div class="button-row">
+            <button class="game-button" onclick="goYay()">Yes</button>
+            <button class="game-button" onclick="goNo()">No</button>
+        </div>
+
+        <div class="gif-placeholder">
+              <img src="heart.gif" alt="gif" class="gif">
+        </div>
+    </div>
+
+    <!-- YAY PAGE (final) -->
+    <div id="yayPage" class="page pastel hidden">
         <h1>YAYYYYYYYYYYYY :D :3 &lt;3</h1>
 
-         <img src="courage.gif" alt="gif" class="gif">
-      
+        <div class="gif-placeholder">
+            <img src="courage.gif" alt="gif" class="gif">
+        </div>
     </div>
 
     <!-- NO / LAME PAGE -->
@@ -33,20 +50,24 @@
     </div>
 
     <script>
-        function goYes() {
+        function goValentine() {
             document.getElementById("page1").classList.add("hidden");
-            document.getElementById("yesPage").classList.remove("hidden");
+            document.getElementById("valentinePage").classList.remove("hidden");
+        }
+
+        function goYay() {
+            document.getElementById("valentinePage").classList.add("hidden");
+            document.getElementById("yayPage").classList.remove("hidden");
         }
 
         function goNo() {
+            // hide whichever page is visible
             document.getElementById("page1").classList.add("hidden");
+            document.getElementById("valentinePage").classList.add("hidden");
+            document.getElementById("yayPage").classList.add("hidden");
             document.getElementById("noPage").classList.remove("hidden");
         }
     </script>
 
 </body>
 </html>
-
-
-
-
