@@ -16,9 +16,8 @@
             <button class="game-button" onclick="goNo()">No</button>
         </div>
 
-        <div class="gif-placeholder">
-            <img src="jigsaw.gif" alt="gif" class="gif">
-        </div>
+        <!-- GIF directly, no placeholder -->
+        <img src="jigsaw.gif" alt="gif" class="gif">
     </div>
 
     <!-- VALENTINE PAGE -->
@@ -30,18 +29,15 @@
             <button class="game-button" onclick="goNo()">No</button>
         </div>
 
-        <div class="gif-placeholder">
-              <img src="heart.gif" alt="gif" class="gif">
-        </div>
+        <!-- GIF directly -->
+        <img src="valentine.gif" alt="gif" class="gif">
     </div>
 
     <!-- YAY PAGE (final) -->
     <div id="yayPage" class="page pastel hidden">
         <h1>YAYYYYYYYYYYYY :D :3 &lt;3</h1>
 
-        <div class="gif-placeholder">
-            <img src="courage.gif" alt="gif" class="gif">
-        </div>
+        <img src="courage.gif" alt="gif" class="gif">
     </div>
 
     <!-- NO / LAME PAGE -->
@@ -61,7 +57,7 @@
         }
 
         function goNo() {
-            // hide whichever page is visible
+            // hide all pages
             document.getElementById("page1").classList.add("hidden");
             document.getElementById("valentinePage").classList.add("hidden");
             document.getElementById("yayPage").classList.add("hidden");
