@@ -1,5 +1,3 @@
-<!-- Valentines html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,48 +5,23 @@
     <title>Play a Game?</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="pastel">
 
-    <!-- Page 1 -->
-    <div id="page1" class="page pastel">
-        <h1>Hi Anthony want to play a game?</h1>
+    <h1>Hi Anthony want to play a game?</h1>
 
-        <div class="button-row">
-            <button class="game-button" onclick="showYes()">Yes</button>
-            <button class="game-button" onclick="showNo()">No</button>
-        </div>
+    <div class="button-row">
+        <a href="yes.html">
+            <button class="game-button">Yes</button>
+        </a>
 
-        <div class="gif-placeholder">
-            GIF PLACEHOLDER
-        </div>
+        <a href="no.html">
+            <button class="game-button">No</button>
+        </a>
     </div>
 
-    <!-- Yes Page -->
-    <div id="yesPage" class="page pastel hidden">
-        <h1>YAYYYYYYYYYYYY :D :3 &lt;3</h1>
-
-        <div class="gif-placeholder">
-            GIF PLACEHOLDER
-        </div>
+    <div class="gif-placeholder">
+        GIF PLACEHOLDER
     </div>
-
-    <!-- No Page -->
-    <div id="noPage" class="page navy hidden">
-        <h1 class="lame-text">lame :(</h1>
-    </div>
-
-    <script>
-        function showYes() {
-            document.getElementById("page1").classList.add("hidden");
-            document.getElementById("yesPage").classList.remove("hidden");
-        }
-
-        function showNo() {
-            document.getElementById("page1").classList.add("hidden");
-            document.getElementById("noPage").classList.remove("hidden");
-        }
-    </script>
 
 </body>
 </html>
-
