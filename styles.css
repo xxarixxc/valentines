@@ -11,7 +11,7 @@ body {
     justify-content: center; /* vertical center */
     align-items: center;     /* horizontal center */
     text-align: center;
-    gap: 20px; /* base gap between elements */
+    gap: 20px;
 }
 
 /* Hidden pages */
@@ -64,7 +64,7 @@ h1 {
 
 /* GIF styling */
 .gif {
-    margin-top: 2in; /* moves GIF 2 inches below the buttons */
+    margin-top: 2in; /* move GIF 2 inches below the buttons */
     max-width: 300px;
     height: auto;
 }
