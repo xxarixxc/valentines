@@ -11,9 +11,10 @@ body {
     justify-content: center; /* vertical center */
     align-items: center;     /* horizontal center */
     text-align: center;
-    gap: 20px; /* space between text, buttons, gif */
+    gap: 20px; /* base gap between elements */
 }
 
+/* Hidden pages */
 .hidden {
     display: none;
 }
@@ -42,7 +43,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1in; /* exactly 1 inch apart */
+    gap: 1in; /* 1 inch between buttons */
 }
 
 .game-button {
@@ -61,23 +62,9 @@ h1 {
     transform: translateY(4px);
 }
 
-/* GIF placeholder */
-
-.gif-placeholder {
-    width: 300px;
-    height: 200px;
-    background-color: #eee;
-    border: 2px dashed black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1in; /* moves all GIFs down a bit */
+/* GIF styling */
+.gif {
+    margin-top: 2in; /* moves GIF 2 inches below the buttons */
+    max-width: 300px;
+    height: auto;
 }
-
-/* Make GIFs fit inside placeholder */
-.gif-placeholder img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
