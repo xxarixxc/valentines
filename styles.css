@@ -64,9 +64,10 @@ h1 {
 
 /* GIF styling */
 .gif {
-    margin-top: 1in; /* move GIF 2 inches below the buttons */
+    margin-top: 20px; /* move GIF 2 inches below the buttons */
     max-width: 300px;
     height: auto;
 }
+
 
 
