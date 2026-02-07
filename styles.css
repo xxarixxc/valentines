@@ -12,6 +12,8 @@ body {
     align-items: center;     /* horizontal center */
     text-align: center;
     gap: 10px;
+    padding-top: 40px;
+}
 }
 
 /* Hidden pages */
@@ -64,10 +66,12 @@ h1 {
 
 /* GIF styling */
 .gif {
-    margin-top: 20px; /* move GIF 2 inches below the buttons */
+    margin-top: 10px; /* move GIF 2 inches below the buttons */
     max-width: 300px;
     height: auto;
+    
 }
+
 
 
 
