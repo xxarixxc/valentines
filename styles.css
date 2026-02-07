@@ -17,7 +17,7 @@ body {
 
 /* Hidden pages */
 .hidden {
-    display: none;
+ display: none !important;
 }
 
 /* Background colors */
@@ -70,6 +70,7 @@ h1 {
     height: auto;
     
 }
+
 
 
 
