@@ -12,8 +12,7 @@ body {
     align-items: center;     /* horizontal center */
     text-align: center;
     gap: 10px;
-    padding-top: 40px;
-}
+  }
 }
 
 /* Hidden pages */
@@ -71,6 +70,7 @@ h1 {
     height: auto;
     
 }
+
 
 
 
